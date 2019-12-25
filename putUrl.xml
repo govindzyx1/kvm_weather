@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations name="putUrl" mapIdentifier="urlMapper" continueOnError="false">
+    <Scope>apiproxy</Scope>
+    <Put override="true">
+        <Key>
+            <Parameter>myName</Parameter>
+        </Key>
+        <Value>"Anil"</Value>
+        <Value>"Sagar"</Value>
+    </Put>
+    <Get assignTo="newVariable" index="1">
+        <Key>
+            <Parameter>myNameNot</Parameter>
+        </Key>
+    </Get>
+</KeyValueMapOperations>
